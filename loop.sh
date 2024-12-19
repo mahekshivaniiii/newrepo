@@ -6,4 +6,4 @@
 for new in x{1..3}
 do
    useradd "$new"
-done 
+done
