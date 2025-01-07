@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     // implict type casting or conversion which is done by compiler automatically char --> int 
-    char grade = 'A';
+    char grade = 'z';
 
     int value = grade ;
     cout << value << endl;
