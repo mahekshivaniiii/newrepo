@@ -1,10 +1,14 @@
 #include<iostream>
 using namespace std;
-
+//sum of numbers from 1 to n 1+2+3
 int main(){
-    for(int i = 0 ; i<=5 ; i=i+2){
-        cout << i << endl;
-
+    int sum = 0;
+    int n ;
+     cin >> n;
+    for( int i = 1; i <= n ; i++){
+        
+        sum = sum +i ;
     }
+    cout << sum <<endl;
     return 0 ;
 }

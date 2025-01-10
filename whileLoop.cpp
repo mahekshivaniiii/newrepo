@@ -2,14 +2,15 @@
 using namespace std;
 
 int main(){
+    int sum = 0 ;
     int n ;
     cin >> n ;
     int count =1 ;
     while( count<= n){
-        cout << count  <<  " ";
+        sum = sum+count ;
         count ++;
     }
-    cout << endl;
+    cout << sum << endl;
     return 0;
 
 }
