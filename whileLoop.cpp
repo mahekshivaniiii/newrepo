@@ -2,11 +2,14 @@
 using namespace std;
 
 int main(){
-    int n = 1;
-    while(n <= 5){
-        cout << n << endl;
-        n++;
+    int n ;
+    cin >> n ;
+    int count =1 ;
+    while( count<= n){
+        cout << count  <<  " ";
+        count ++;
     }
+    cout << endl;
     return 0;
 
 }
