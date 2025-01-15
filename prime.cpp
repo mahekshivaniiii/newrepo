@@ -13,6 +13,7 @@ int main(){
    if(count == 2){
     cout << "Prime" << endl;
    } 
+   
    else{
     cout << "Non-Prime" << endl;
    }
